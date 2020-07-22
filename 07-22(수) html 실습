@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: white;
+        }
+        img {
+            width: 100px;
+        }
+        *cat_img {
+            width: 100px;
+        }
+        *selected ul {
+            border-color: red;
+        }
+        *selecte2 > ul {
+            border: 5px;
+        }
+        a:link{
+            color:gray;
+        }
+        a:hover {
+            color: red;
+        }
+        a:visited {
+            color: violet;
+        }
+        .box {
+            background-color: red;
+            width: 150;
+            height: 150;
+        }
+
+    </style>
+ </head>
+ <body>
+    
+     <h1>こんにちは</h1>
+     <h2>初めてのHTMLの時間ですね。</h2>
+     <h3>私の趣味は紙人形フィギュア作りです。</h3>
+     <h4>好きな漫画はThe King of Braves GaoGaigarです。</h4>
+     <h5>好きな芸能人はチョア、チャンミ、ミンアです。</h5>
+     <h6>좋아하는 게임은 Overwatch 입니다.</h6>
+     <P>
+        光州広域市庁は人工知能士官学校という学校を設立して光州で初めて,
+        第4次産業革命を導くだろうと、市長が述べた。
+     </P>
+     <div class="box">안녕하세요. 인공지능 수업 따라잡기 힘드네요.;;;</div>
+     
+     <span>빨랑 학습 내용 습득해서 같이 따라가야겠어요.</span>
+     
+     <ol>
+         <li>짱구친구 소개</li>
+         <li>도라에몽 소개</li>
+         <li>톰과제리 소개</li>
+     </ol>
+     <ul>
+         <li></li>
+         <li>짱구는 5살 유치원생으로 장난치는 개그 만화.</li>
+         <li>22세기 미래에서 온 고양이형 로봇으로 다양한 도구로 진구를 도와주는 만화.</li>
+         <li>고양이 톰과 생쥐 제리와의 장난치면서 시골집에서 지내는 개그 만화.</li>
+     </ul>
+     <a href = "http://precourse.gj-aischool.com">광주인공지능 사관학교</a>
+     <img src=".세일러 코스모스 (김대호)1" alt="세일러 코스모스" />
+     <from action="https://server.ai-school.com" method="POST">
+        <input name="userid" placeholder="아이디를 입력하세요." type="text"/>
+        <br />
+        <label for="userpw_input">비밀번호</label>
+        <input name="userpw" placeholder="비밀번호를 입력하세요." type="password"/>
+        <button type="sumit"></button>
+        <select name="interest">
+            <option value="짱구">짱구</option>
+            <option value="맹구">맹구</option>
+            <option value="훈이">훈이</option>
+        </select>
+        <textarea name="content" cols="50" rows="50">from의 기본 내용</textarea>
+        <button name="전송" type="submit">전송하기</button>
+        <input value="전송하기" type="button" name="button"/>
+     </from>
+ </body>
+</html>
